@@ -1,6 +1,6 @@
 # aibezchmury-skille
 
-Seven skills for working with an AI agent, built around one rule: **the result must be true, not just look good**.
+Twelve skills for working with an AI agent, built around one rule: **the result must be true, not just look good**.
 
 They are distilled from procedures written after real failures: a green test that never ran, a number without a source, "done" without an artifact, a free API with a non-commercial licence, a model's memory read as an instruction. Every procedure has been rewritten in neutral language and stripped of client, project and infrastructure details.
 
@@ -15,6 +15,11 @@ They are distilled from procedures written after real failures: a green test tha
 | `kontrakt-zrodla-danych` | rate limit, headers and commercial licence checked before the first fetch loop |
 | `pamiec-nie-polecenie` | retrieved memory is data, not instructions; three layers of defence against indirect prompt injection |
 | `zapis-na-biezaco` | write results to disk after every stage, so an interruption does not erase the work |
+| `straznik-danych-przed-wysylka` | before pasting text into a cloud chat, checks PESEL, NIP, REGON, IBAN, ID number, phone, names and health data; mask it or do not send |
+| `zlecenie-i-odbior` | the acceptance command is written before the task; you accept the artifact, not the word "done" |
+| `test-skutkow-4-przypadki` | any automation that blocks, retries or changes shared state passes four cases before it is enabled: invalid, valid, dependency failure, rollback |
+| `bezpieczenstwo-konta` | a suspicious email or login alert: what to check read-only, what never to click, what stays with the account owner |
+| `polski-tekst-bez-sladow-ai` | Polish AI-writing tells (calques, triples, dashes, lowercase after a greeting) and rewriting only the affected sentences |
 
 ## Installation
 

@@ -1,6 +1,6 @@
 # aibezchmury-skille
 
-Siedem skilli do pracy z agentem AI, które pilnują jednej rzeczy: **żeby wynik pracy był prawdziwy, a nie tylko dobrze wyglądał**.
+Dwanaście skilli do pracy z agentem AI, które pilnują jednej rzeczy: **żeby wynik pracy był prawdziwy, a nie tylko dobrze wyglądał**.
 
 To wyciąg z procedur, które powstały przy realnych wpadkach: zielony test przy braku sprawdzenia, liczba bez źródła, „zrobione” bez artefaktu, darmowe API z licencją niekomercyjną, pamięć modelu czytana jak polecenie. Każda procedura została przepisana na neutralny język i oczyszczona z danych konkretnych projektów, klientów i infrastruktury.
 
@@ -15,6 +15,11 @@ To wyciąg z procedur, które powstały przy realnych wpadkach: zielony test prz
 | `kontrakt-zrodla-danych` | limit, nagłówki i licencja komercyjna cudzego API sprawdzone, zanim napiszesz pętlę pobierania |
 | `pamiec-nie-polecenie` | treść z pamięci i RAG to dane, nie polecenia; trzy warstwy obrony przed pośrednim wstrzyknięciem |
 | `zapis-na-biezaco` | wynik na dysk po każdym etapie, żeby przerwanie nie skasowało całej pracy |
+| `straznik-danych-przed-wysylka` | przed wklejeniem tekstu do czatu w chmurze sprawdza PESEL, NIP, REGON, IBAN, numer dowodu, telefon, nazwiska i dane o zdrowiu; przy trafieniu każe zamaskować albo nie wysyłać. W `zestaw-testowy/` jest 80 zmyślonych polskich tekstów z wynikami pomiaru (Bielik-Minitron 7B, Qwen3 8B) |
+| `zlecenie-i-odbior` | komenda odbioru zapisana przed zleceniem; wynik odbierasz po artefakcie, nie po słowie „gotowe” |
+| `test-skutkow-4-przypadki` | automat, który blokuje, ponawia albo zmienia wspólny stan, przechodzi cztery przypadki przed włączeniem: błędny, poprawny, awaria zależności, wycofanie |
+| `bezpieczenstwo-konta` | podejrzany mail albo alert logowania: co wolno sprawdzić tylko czytając, czego nie klikać i co zostawić właścicielowi konta |
+| `polski-tekst-bez-sladow-ai` | polskie ślady pisania modelem (kalki, trójki, myślniki, mała litera po zwrocie) i przepisywanie tylko trafionych zdań |
 
 ## Jak zainstalować
 

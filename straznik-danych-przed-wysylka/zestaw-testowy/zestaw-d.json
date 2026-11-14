@@ -1,0 +1,842 @@
+[
+  {
+    "id": "d-dane-01",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Kartoteka D zawiera pani Korona, w celowniku Koronie.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Korona"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-02",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Korespondencję wysłano pod adres al. Sztuczna 10, 78-878 Próbkowo.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "al. Sztuczna 10, 78-878 Próbkowo"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-03",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Wpis D opisuje zapalenie zatok przewlekłe, bez prawdziwej osoby.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "zapalenie zatok przewlekłe"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-04",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Wzór podaje os. Próbne 11/6, 34-434 Zapisów.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "os. Próbne 11/6, 34-434 Zapisów"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-05",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Plan dostawy wskazuje ul. Słoneczna 1, 10-110 Bezludno.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "ul. Słoneczna 1, 10-110 Bezludno"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-06",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Notatka ćwiczeniowa wymienia bezsenność łagodną, przypadek zmyślony.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "bezsenność łagodną"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-07",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Adres próbny: os. Zielone 3/5, 20-220 Fikcjonów.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "os. Zielone 3/5, 20-220 Fikcjonów"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-08",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Wniosek D: pani Brzoza podpisała kartę; przekazano ją Brzozie.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Brzoza"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-09",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "W formularzu testowym podano pani Wydra, wiadomość wysłano Wydrze.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Wydra"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-10",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Pani Malina odebrała fikcyjną przesyłkę, przekazano ją Malinie.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Malina"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-11",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Adres fikcyjny zapisano jako ul. Dębowa 19, 45-545 Kontrolin.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "ul. Dębowa 19, 45-545 Kontrolin"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-12",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Kopertę skierowano na al. Kamienna 8, 12-212 Syntetyczno.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "al. Kamienna 8, 12-212 Syntetyczno"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-13",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Dostawa D: pl. Rysunkowy 2, 56-656 Fikcjanów.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "pl. Rysunkowy 2, 56-656 Fikcjanów"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-14",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Pismo testowe adresowano do pani Chmura, w odmianie Chmurze.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Chmura"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-15",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Próba medyczna zawiera niedoczynność nadnerczy, całkowicie zmyśloną.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "niedoczynność nadnerczy"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-16",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Testowa karta zdrowia wskazuje złamanie palca, dane są fikcyjne.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "złamanie palca"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-17",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Fikcyjny opis wskazuje na ból stawów przewlekły, wyłącznie do testu.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "ból stawów przewlekły"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-18",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Syntetyczna lista: pani Sowa; dalsza forma w tekście to Sowie.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Sowa"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-19",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Na kopercie zapisano pl. Cichy 9, 30-330 Testowie.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "pl. Cichy 9, 30-330 Testowie"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-20",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Opis zmyślonego przypadku zawiera gorączkę wieczorną.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "gorączkę wieczorną"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-21",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "W dokumencie ćwiczeniowym wymieniono niedokrwistość łagodną.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "niedokrwistość łagodną"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-22",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Ćwiczenie wskazuje pana Orzech; formularz wysłano Orzechowi.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Orzech"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-23",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "W protokole D wpisano pana Bednarzowi, forma podstawowa: Bednarz.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Bednarz"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-24",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Protokół D podpisał pan Topola, dokument wręczono Topoli.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Topola"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-25",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Wypis testowy opisuje migrenę okresową bez danych osoby.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "migrenę okresową"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-26",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Adres D: ul. Brzozowa 15/3, 01-101 Próbkowo.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "ul. Brzozowa 15/3, 01-101 Próbkowo"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-27",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Odbiorcą testu jest pan Runo, a kopię przekazano Runu.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Runo"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-28",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Karta D zawiera rozpoznanie alergia wiosenna, bez osoby.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "alergia wiosenna"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-29",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "W dokumencie D jest adres ul. Rzeczna 13, 90-090 Danychów.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "ul. Rzeczna 13, 90-090 Danychów"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-30",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "W rejestrze syntetycznym figuruje pani Kaczka, przekazano Kaczce.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Kaczka"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-31",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Miejsce dostawy: ul. Ćwiczebna 4B, 23-323 Modelowo.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "ul. Ćwiczebna 4B, 23-323 Modelowo"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-32",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Na etykiecie widnieje ul. Leśna 7A, 67-767 Zmyślany.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "ul. Leśna 7A, 67-767 Zmyślany"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-33",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Wynik syntetyczny: zapalenie gardła, bez identyfikatora pacjenta.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "zapalenie gardła"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-34",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Fikcyjny wypis wymienia padaczkę stabilną jako informację zdrowotną.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "padaczkę stabilną"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-35",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Fikcyjny odbiorca to pan Gajda; doręczenie potwierdził Gajdzie.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Gajda"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-36",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Syntetyczna karta wskazuje cukrzycę typu pierwszego, bez pacjenta.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "cukrzycę typu pierwszego"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-37",
+    "rodzaj": "dane",
+    "kategorie": [
+      "adres"
+    ],
+    "tekst": "Punkt testowy leży przy ul. Modelowa 6/2, 89-989 Sprawdzewo.",
+    "oczekiwane": [
+      {
+        "kategoria": "adres",
+        "fragment": "ul. Modelowa 6/2, 89-989 Sprawdzewo"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-38",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Wzór dokumentu wymienia pani Pszczoła, dopisek brzmi Pszczole.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Pszczoła"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-39",
+    "rodzaj": "dane",
+    "kategorie": [
+      "zdrowie"
+    ],
+    "tekst": "Laboratoryjna próbka D mówi o nadciśnieniu kontrolowanym.",
+    "oczekiwane": [
+      {
+        "kategoria": "zdrowie",
+        "fragment": "nadciśnieniu kontrolowanym"
+      }
+    ]
+  },
+  {
+    "id": "d-dane-40",
+    "rodzaj": "dane",
+    "kategorie": [
+      "nazwisko"
+    ],
+    "tekst": "Notatka laboratoryjna wymienia pana Kamyk, a niżej Kamykowi.",
+    "oczekiwane": [
+      {
+        "kategoria": "nazwisko",
+        "fragment": "Kamyk"
+      }
+    ]
+  },
+  {
+    "id": "d-czyste-01",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Firma Pszczoła Systems opisuje serwer, nie dane osobowe.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-02",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Katalog leków wymienia migrenę jako termin, bez przypadku.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-03",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Słowo runo występuje w opisie materiału, bez człowieka.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-04",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Ulotka ogólna mówi o koronie drzewa, bez pacjenta.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-05",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Instrukcja o bezsenności podaje definicję, bez pacjenta.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-06",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Nazwa pakietu D-2026 jest techniczna i nie wskazuje osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-07",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "W instrukcji bezpieczeństwa występuje słowo padaczka, bez pacjenta.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-08",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Nazwa modułu Kontrolin nie jest nazwą osoby ani adresem.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-09",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Miasto Próbkowo występuje w legendzie mapy, bez osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-10",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Raport techniczny opisuje brzozę jako element krajobrazu, bez osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-11",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Instrukcja pokazuje ul. Brzozową na mapie, bez adresu zamieszkania.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-12",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Nazwa projektu Malina-CLI jest techniczna i nie oznacza osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-13",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Katalog Gajda Home zawiera nazwę marki, nie dane osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-14",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "W słowniku medycznym jest hasło niedokrwistość, bez danych osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-15",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Raport o Dębowej opisuje rośliny, a nie adres zamieszkania.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-16",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Firma ZapalenieTech opisuje aplikację, nie stan zdrowia.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-17",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Katalog Fikcjanów zawiera etykiety produktów, bez danych osobowych.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-18",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Firma BednarzLab publikuje instrukcję produktu, nie nazwisko człowieka.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-19",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Definicja alergii w podręczniku nie opisuje przypadku zdrowotnego.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-20",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Katalog produktów Topola 2.0 nie jest dokumentem osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-21",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "W systemie jest użytkownik techniczny wydra-test, nie człowiek.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-22",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Mapa miejscowości Modelowo i Zapisów jest fikcyjna.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-23",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Raport pogodowy wspomina gorączkę jako metaforę, bez pacjenta.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-24",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Plan Sztuczna 10 jest przykładową trasą techniczną.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-25",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Opis produktu Leśna 7A nie podaje adresu człowieka.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-26",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Katalog suplementu wymienia nadnercza, ale nie opisuje osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-27",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Raport pogodowy dla Sowy nie zawiera nazwiska osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-28",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "W tabeli miejscowości występują Kaczka i Kamyk jako nazwy punktów.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-29",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Opis anatomii zatok jest ogólną definicją, nie wypisem.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-30",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Mapa pokazuje ulicę Orzechową jako element planu, bez adresata.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-31",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Adres URL zawiera ciąg sowa, lecz nie adres zamieszkania.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-32",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Ulotka sportowa wspomina złamanie jako przykład, bez przypadku.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-33",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Tekst o bólu stawów jest opisem pojęcia, bez osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-34",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Miasto Chmura jest punktem na fikcyjnej mapie.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-35",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Przedsiębiorstwo Ćwiczebne publikuje raport testowy bez adresata.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-36",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Opis lasu wymienia drzewa i nie zawiera stanu zdrowia osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-37",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Dokument szkoleniowy o nadciśnieniu nie dotyczy osoby.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-38",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Opis cukru w produkcie nie jest informacją o zdrowiu człowieka.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-39",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Ulotka witaminy D zawiera dawkowanie ogólne, bez pacjenta.",
+    "oczekiwane": []
+  },
+  {
+    "id": "d-czyste-40",
+    "rodzaj": "czyste",
+    "kategorie": [],
+    "tekst": "Ulotka produktu Kamienna opisuje opakowanie, nie dane osoby.",
+    "oczekiwane": []
+  }
+]
